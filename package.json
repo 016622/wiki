@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "docs:bp": "npm run docs:build && npm run docs:preview",
+    "start": "npm run docs:build && npm run docs:preview"
+  },
+  "dependencies": {
+    "vitepress": "^1.0.0-rc.36",
+    "vue": "^3.4.13"
+  }
+}
