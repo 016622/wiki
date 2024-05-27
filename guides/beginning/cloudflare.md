@@ -2,7 +2,7 @@
 
 1. **Visit the text file**
 
-   - Go to [this](/guides/other/keys.txt)
+   - Go to [this](https://rentry.co/WarpPlusKeys)
 
 2. **Pick a key**
    - Enjoy 1.92EB (Exabyte) aka 1.92 Million Terabyte of Cloudflare Warp+ Traffic
@@ -13,7 +13,7 @@
 
    - Visit this [link](https://github.com/ViRb3/wgcf/releases/latest) to download the latest release of WGCF.
    - Once on the GitHub page, you may need to click on "Show all assets" to reveal the available option you'r device to download.
-   - Save the downloaded file to your default "Downloads" folder.
+   - Save the downloaded file to a easy accessable folder (ideally a new folder).
 
 2. **Rename the downloaded file**
 
@@ -25,9 +25,9 @@
 
 4. **Change the directory to your Downloads folder**
 
-   - Navigate to your Downloads folder by running the following command:
+   - Navigate to the folder by running the following command:
      ```
-     cd %userprofile%/Downloads
+     cd (you'r path to the wgcf file)
      ```
 
 5. **Register WGCF**

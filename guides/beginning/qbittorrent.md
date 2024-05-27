@@ -1,5 +1,3 @@
-# Welcome to GFE
-
 ## How to Connect Your qBittorrent Client to a VPN/Proxy
 
 1. Click on the settings icon
