@@ -21,7 +21,7 @@ Make a habit of creating System Restore Points and Backups of your Registry ofte
 This will not be an in-depth guide, as a lot of the resources provided have guides or steps within them, or are straightforward and instructions are not needed or are provided on their site.
 :::
 
-## 🪟 Windows
+## 🪟 Tips - Good to know
 
 ::: tip Good to Know
 
@@ -70,51 +70,13 @@ sfc /scannow
 
 [Ninite](https://ninite.com/) - Install and Update All Your Programs at Once
 
-## 🏎️ Quickies
-
-### 🔑 Some Useful Registry Keys:
-
-- [How to Remove the Folders From “This PC” on Windows 10](https://github.com/Courage-1984/Remove-Folders-From-This-PC-Win10)
-- [Disable Windows Web Search in Start](https://github.com/Courage-1984/Disable-Windows-Web-Search-in-Start)
-- [How to Enable Windows Photo Viewer in Windows 10](https://github.com/Courage-1984/Enable-Windows-Photo-Viewer-Win10)
-- [Pin Files to Start on Windows 10](https://github.com/Courage-1984/Pin-Files-to-Start-Windows-10)
-- [Show more details in Details pane of File Explorer](https://github.com/Courage-1984/Show-more-details-in-Details-pane-of-File-Explorer)
-- [Add Take Ownership to Context Menu in Windows 10](https://github.com/Courage-1984/Add-Take-Ownership-to-Context-Menu)
-
-Index of Reg Keys:
-
-- [Registry Tweaks](https://www.ricing.chloechantelle.com/#advanced)
-- [Registry Editing](https://namazso.github.io/nanami-tan/#RegEdit)
-
-### 🪛 Tweaks
-
-- [How to make a Windows GodMode folder](/guides/windows/tweaks#windows-god-mode-folder)
-- [How to ACTUALLY Change the Windows Default System Font](/guides/windows/tweaks#change-system-font)
-- [Remove the language indicator](https://www.askvg.com/fix-input-indicator-icon-comes-back-in-taskbar-notification-area-after-restarting-windows/) - Permanently remove language indicator from the taskbar
-- [Fix search indexing](https://lifehacker.com/set-windows-10-to-search-all-file-contents-with-this-se-1733511735) - Start menu will search through files and file contents
-- [WinSetView](https://github.com/LesFerch/WinSetView) - Globally Set Explorer Folder Views
-- [How to Prevent Windows 10 or 11 From Automatically Downloading Updates](https://www.howtogeek.com/224471/how-to-prevent-windows-10-from-automatically-downloading-updates/)
-- [How to stop Windows 10 from automatically updating device drivers](https://forums.tomshardware.com/faq/how-to-stop-windows-10-from-automatically-updating-device-drivers.2398360/)
-- [Prevent Windows 10 from Automatically Restarting Your PC After Updating](https://lifehacker.com/prevent-windows-10-from-automatically-restarting-your-p-1723647582)
-- [Fix problems that block programs from being installed or removed](https://support.microsoft.com/en-us/topic/fix-problems-that-block-programs-from-being-installed-or-removed-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d) - The Program Install and Uninstall troubleshooter helps you automatically repair issues when you're blocked from installing or removing programs. It also fixes corrupted registry keys.
-
-### 🦠 Online Url and File Analyses
-
-- [VirusTotal](https://www.virustotal.com/) - Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches
-- [Hybrid Analysis](https://www.hybrid-analysis.com/) - Free Automated Malware Analysis Service. This is a free malware analysis service for the community that detects and analyzes unknown threats using a unique Hybrid Analysis technology.
-- [Cloudflare Radar URL Scanner](https://radar.cloudflare.com/scan) - Understand the security, performance, technology, and network details of a URL with a publicly shareable report.
-- [Jotti's malware scan](https://virusscan.jotti.org/) - Jotti's malware scan is a free service that lets you scan suspicious files with several anti-virus programs.
-- [ANY-RUN](https://any.run/) - Interactive Online Malware Sandbox
-
 ## 🧰 Debloating, Optimisation, Customisation & Privacy
-
-![Debloating](https://raw.githubusercontent.com/Courage-1984/Windows-Ricing-Privacy-Customization-Optimization/main/Windows%20Ricing%20Guide%20Images/banners/wallpaper_3840x886_1710695846578.png)
 
 _This section will cover Debloating, Optimising & Tweaking your system along with some Privacy stuff._
 
 > **This section will have somewhat of an order to it. My top recommadations will be listed first and all will follow in and order of what I suggest to use them.**
 
-## 🌟 FIRST
+### 🌟 FIRST
 
 - 🔥 [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 
@@ -146,7 +108,7 @@ You can just run the following in your powershell (admin):
 
 > That basically covers it for the first section. With these tools you now should have a nice clean, debloated, optimised and fast system.
 
-## 🌟 SECOND
+### 🌟 SECOND
 
 - 🔥 [privacy is sexy](https://privacy.sexy/) - 🔐 Enforce privacy & security best-practices on Windows, macOS and Linux.
 
@@ -158,7 +120,7 @@ You can just run the following in your powershell (admin):
 
 > and that's the second part. You should now have some robust security, privacy, anti-telementary, anti-data-collection, anti-spying, and so one...
 
-## 🌟 THIRD
+### 🌟 THIRD
 
 - [WPD](https://wpd.app/) - WPD is the most convenient way to configure various privacy settings in Windows.
 - [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker) - Block spying and tracking on Windows
@@ -192,3 +154,37 @@ You can just run the following in your powershell (admin):
 - [Blackbird](https://www.getblackbird.net/) - Windows privacy, security and performance
 - [Start X Back](https://github.com/echnobas/StartXBack) - A universal crack for Start Is/All Back.
 - [Modern Flyouts](https://github.com/ModernFlyouts-Community/ModernFlyouts) - A modern Fluent Design replacement for the old Metro themed flyouts present in Windows.
+
+## 🏎️ Quickies
+
+### 🔑 Some Useful Registry Keys:
+
+- [How to Remove the Folders From “This PC” on Windows 10](/guides/windows/tweaks#remove-this-pc-in-windows-10)
+- [Disable Windows Web Search in Start](/guides/windows/tweaks#remove-web-search-in-start)
+- [Pin Files to Start on Windows 10](https://github.com/Courage-1984/Pin-Files-to-Start-Windows-10)
+- [Show more details in Details pane of File Explorer](https://github.com/Courage-1984/Show-more-details-in-Details-pane-of-File-Explorer)
+- [Add Take Ownership to Context Menu in Windows 10](https://github.com/Courage-1984/Add-Take-Ownership-to-Context-Menu)
+
+Index of Reg Keys:
+
+- [Registry Tweaks](https://www.ricing.chloechantelle.com/#advanced)
+- [Registry Editing](https://namazso.github.io/nanami-tan/#RegEdit)
+
+### 🪛 Tweaks
+
+- [How to make a Windows GodMode (Control Panel) folder](/guides/windows/tweaks#windows-god-mode-folder)
+- [How to ACTUALLY Change the Windows Default System Font](/guides/windows/tweaks#change-system-font)
+- [Remove the language indicator](/guides/windows/tweaks#disable-language-indicator-on-taskbar) - Permanently remove language indicator from the taskbar
+- [WinSetView](https://github.com/LesFerch/WinSetView) - Globally Set Explorer Folder Views
+- [How to Prevent Windows 10 or 11 From Automatically Downloading Updates](/guides/windows/tweaks#block-windows-10-11-from-automatically-downloading-updates)
+- [How to stop Windows 10 from automatically updating device drivers](/guides/windows/tweaks#disable-automatic-driver-update)
+- [Prevent Windows 10 from Automatically Restarting Your PC After Updating](https://lifehacker.com/prevent-windows-10-from-automatically-restarting-your-p-1723647582)
+- [Fix problems that block programs from being installed or removed](https://support.microsoft.com/en-us/topic/fix-problems-that-block-programs-from-being-installed-or-removed-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d) - The Program Install and Uninstall troubleshooter helps you automatically repair issues when you're blocked from installing or removing programs. It also fixes corrupted registry keys.
+
+### 🦠 Online Url and File Analyses
+
+- [VirusTotal](https://www.virustotal.com/) - Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches
+- [Hybrid Analysis](https://www.hybrid-analysis.com/) - Free Automated Malware Analysis Service. This is a free malware analysis service for the community that detects and analyzes unknown threats using a unique Hybrid Analysis technology.
+- [Cloudflare Radar URL Scanner](https://radar.cloudflare.com/scan) - Understand the security, performance, technology, and network details of a URL with a publicly shareable report.
+- [Jotti's malware scan](https://virusscan.jotti.org/) - Jotti's malware scan is a free service that lets you scan suspicious files with several anti-virus programs.
+- [ANY-RUN](https://any.run/) - Interactive Online Malware Sandbox

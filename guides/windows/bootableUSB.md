@@ -4,19 +4,19 @@
 This guide will use Rufus to create the bootable USB stick for Windows 10/11.
 :::
 
-## Download Rufus and run the Program
+### Download Rufus and run the Program
 
 1. Download the latest version of rufus from the official GitHub repository
 
    - [Download](https://github.com/pbatard/rufus/releases/latest) Rufus
 
-## Download the Windows 10 ISO image
+### Download the Windows 10/11 ISO image
 
 2. Download the latest version of the Windows 10 ISO image
 
    - [Download](https://os.click/) the latest Windows 10/11 ISO image
 
-## Create the Bootable USB Stick
+### Create the Bootable USB Stick
 
 3. Plug in the USB stick
 
