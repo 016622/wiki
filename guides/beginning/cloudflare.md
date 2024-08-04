@@ -37,43 +37,32 @@
      wgcf register
      ```
 
-6. **Generate WGCF configuration**
-
-   - Execute the command:
-     ```
-     wgcf generate
-     ```
-
-7. **Locate the generated files**
-
-   - You should now have two new files: "wgcf-profile.conf" and "wgcf-account.toml".
-
-8. **Update the account key in "wgcf-account.toml"**
+6. **Update the account key in "wgcf-account.toml"**
 
    - Open the "wgcf-account.toml" file with a text editor.
    - Replace the "license_key" field with the key you selected in the previous guide.
 
-9. **Update WGCF**
+7. **Update WGCF**
 
    - Run the command:
      ```
      wgcf update
      ```
 
-10. **Generate WGCF configuration again**
+8. **Generate WGCF configuration again**
 
     - Execute the command:
       ```
       wgcf generate
       ```
 
-11. **Import the "wgcf-profile.conf" file to your Wireguard client**
+9. **Import the "wgcf-profile.conf" file to your Wireguard client**
 
     - Import the "wgcf-profile.conf" configuration file to your Wireguard client.
 
-12. **Activate the configuration**
+10. **Activate the configuration**
 
     - Activate the imported configuration in your Wireguard client.
 
-13. **Copy "wgcf-profile.conf" to other devices**
+11. **Copy "wgcf-profile.conf" to other devices**
     - You can now copy the "wgcf-profile.conf" file to any device that supports Wireguard and use WARP+ on those devices.
