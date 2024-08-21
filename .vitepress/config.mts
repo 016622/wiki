@@ -29,11 +29,11 @@ export default defineConfig({
               { text: "👋 Welcome", link: "/guides/beginning/start" },
               {
                 text: "☁️ Cloudflare Proxy",
-                link: "/guides/beginning/cloudflare",
+                link: "/guides/cloudflare",
               },
               {
                 text: "📁 qBittorent Setup",
-                link: "/guides/beginning/qbittorrent",
+                link: "/guides/qbittorrent",
               },
             ],
           },
