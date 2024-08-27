@@ -65,4 +65,4 @@ This is not an official dark mode of JDownloader 2.
 
 ## Final Result
 
-![Final Result](https://i.ibb.co/f9VwBCT/SCR-20240821-rrde.png)
+![Final Result](https://files.catbox.moe/4pdchj.png)

@@ -16,7 +16,7 @@ _/ry-sing/_
 
 ### **[READ ME IF YOU HAVE NO IDEA WHAT YOU ARE DOING](https://pastebin.com/raw/mtgSWp42)**
 
-## 💜 My Recommendations
+## 💜 Recommendations
 
 ### First we will start of with the software you should have
 
