@@ -7,7 +7,8 @@ hero:
   name: "GFE - Guides for everyone - 016622.xyz"
   text: "Dive step by step into the world of digital freedom"
   tagline: "Sailing the Digital Tides of Piracy with easy to understand and follow guides"
-
+  image: https://cdn.jsdelivr.net/gh/016622/assets@main/icon/logo.svg
+  alt: Logo is work in progress
   actions:
     - theme: brand
       text: Start here
