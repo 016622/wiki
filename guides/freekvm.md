@@ -23,9 +23,13 @@ Also this KVM doesnt run 24/7
    ```bash
    docker run -p 6080:80 dorowu/ubuntu-desktop-lxde-vnc
    ```
+   or
+   ```bash
+   docker run -p 6080:3000 lscr.io/linuxserver/webtop:ubuntu-kde
+   ```
 
    Paste it into the Cloud Shell terminal using `CTRL + V`, and then press `Enter`.
 
-5. After running the Docker command, you can modify the port number by clicking on the icon located in the upper-right corner (next to the settings icon). Change the port number to `6080`.
+6. After running the Docker command, you can modify the port number by clicking on the icon located in the upper-right corner (next to the settings icon). Change the port number to `6080`.
 
-6. Enjoy your free Desktop Linux shell on Google Cloud!
+7. Enjoy your free Desktop Linux shell on Google Cloud!
