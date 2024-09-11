@@ -23,7 +23,7 @@ Also this KVM doesnt run 24/7
    ```bash
    docker run -p 6080:80 dorowu/ubuntu-desktop-lxde-vnc
    ```
-   or
+   or (newer Version of Ubuntu)
    ```bash
    docker run -p 6080:3000 lscr.io/linuxserver/webtop:ubuntu-kde
    ```
