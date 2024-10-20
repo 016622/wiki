@@ -12,3 +12,5 @@
 **Assets count:**
 
 ![GitHub repo file or directory count (in path)](https://img.shields.io/github/directory-file-count/016622/assets/icon)
+
+### If you found any bugs, please report them on the [Discord](https://discord.gg/jqruB4FJJ5) server in [this](https://discord.com/channels/1196447983462531113/1297623093899956235) channel.
