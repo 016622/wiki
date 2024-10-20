@@ -13,140 +13,26 @@
 ### How to ACTUALLY Change the Windows Default System Font (and restore it if anything goes wrong)
 
 :::warning
-Please do not run any other regedit commands you only downloaded, you can trust this one, cause you can see everything changes.
+Please make sure to check the contents of the .reg file before downloading it. If you download a .reg file from the internet, make sure to check the contents of the file before merging it into your registry. This is a powerful tool that can be used for malicious purposes if used incorrectly.
 :::
+### How to change the Windows Default System Font
 
-1. Find a font you like which is either already on your computer or download it.
+1. Go to [https://github.com/016622/registryHacks/tree/main/changeFont](https://github.com/016622/registryHacks/tree/main/changeFont) and download the `changeDefaultFont.reg` file.
 
-2. Copy the following code into a new file.
+2. Open the `changeDefaultFont.reg` file with a text editor (such as Notepad or Notepad++), and replace the font name with the one you want to use as the default.
 
-```reg
-Windows Registry Editor Version 5.00
+3. Save the changes and close the text editor.
 
- [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]
+4. Run the `changeDefaultFont.reg` file by double-clicking on it. Confirm that you want to add the information to the registry.
 
-
- "Segoe UI (TrueType)"=""
-
-
- "Segoe UI Bold (TrueType)"="THE NEW FONT BOLD"
-
-
- "Segoe UI Bold Italic (TrueType)"="THE NEW FONT BOLD ITALIC"
-
-
- "Segoe UI Italic (TrueType)"="THE NEW FONT ITALIC"
-
-
- "Segoe UI Light (TrueType)"="THE NEW FONT LIGHT"
-
-
- "Segoe UI Semibold (TrueType)"="THE NEW FONT SEMIBOLD"
-
-
- "Segoe UI Symbol (TrueType)"=""
-
-
- [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
-
-
- "Segoe UI"="THE NEW FONT"
-
-```
-
-3. Fill out the last line with the name of the font you are going to use.
-
-4. Save the filename as `update_system_font.reg`.
-
-5. Also save it as type "All Files `(*.*)`"
-
-6. Open Windows Explorer and navigate to the folder where the `update_system_font.reg` file is located.
-
-7. Run the file.
-
-8. Restart Windows.
-
+5. Restart your PC for the changes to take effect.
 ### How to restore the original Windows Default System Font
 
-1. Open Windows Explorer and navigate to the folder where the `update_system_font.reg` file is located.
+1. Go to [https://github.com/016622/registryHacks/tree/main/changeFont](https://github.com/016622/registryHacks/tree/main/changeFont) and download the `revertToWindowsFont.reg` file.
 
-2. Edit the `update_system_font.reg` file and replace it with the following:
+2. Run the `revertToWindowsFont.reg` file by double-clicking on it. Confirm that you want to add the information to the registry.
 
-```reg
-Windows Registry Editor Version 5.00
-
- [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]
-
-
- "Segoe UI (TrueType)"="segoeui.ttf"
-
-
- "Segoe UI Black (TrueType)"="seguibl.ttf"
-
-
-
- "Segoe UI Black Italic (TrueType)"="seguibli.ttf"
-
-
- "Segoe UI Bold (TrueType)"="segoeuib.ttf"
-
-
- "Segoe UI Bold Italic (TrueType)"="segoeuiz.ttf"
-
-
- "Segoe UI Emoji (TrueType)"="seguiemj.ttf"
-
-
- "Segoe UI Historic (TrueType)"="seguihis.ttf"
-
-
- "Segoe UI Italic (TrueType)"="segoeuii.ttf"
-
-
- "Segoe UI Light (TrueType)"="segoeuil.ttf"
-
-
- "Segoe UI Light Italic (TrueType)"="seguili.ttf"
-
-
- "Segoe UI Semibold (TrueType)"="seguisb.ttf"
-
-
- "Segoe UI Semibold Italic (TrueType)"="seguisbi.ttf"
-
-
- "Segoe UI Semilight (TrueType)"="segoeuisl.ttf"
-
-
- "Segoe UI Semilight Italic (TrueType)"="seguisli.ttf"
-
-
- "Segoe UI Symbol (TrueType)"="seguisym.ttf"
-
-
- "Segoe MDL2 Assets (TrueType)"="segmdl2.ttf"
-
-
- "Segoe Print (TrueType)"="segoepr.ttf"
-
-
- "Segoe Print Bold (TrueType)"="segoeprb.ttf"
-
-
- "Segoe Script (TrueType)"="segoesc.ttf"
-
-
- "Segoe Script Bold (TrueType)"="segoescb.ttf"
-
-
- [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
-
- "Segoe UI"=-
-```
-
-3. Run the file.
-
-4. Restart Windows.
+3. Restart your PC for the changes to take effect.
 
 ## Disable Language Indicator on Taskbar
 

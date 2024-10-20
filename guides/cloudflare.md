@@ -2,7 +2,7 @@
 
 1. **Visit the text file**
 
-   - Go to [this](https://gist.githubusercontent.com/jbugel-lol/3857f959ed93f1974c87ef8f0a462815/raw/a029b54bf2d957485fb44cd563878f584789e872/Warp.keys)
+   - Go to [this](https://gist.github.com/jbugel-lol/3857f959ed93f1974c87ef8f0a462815)
 
 2. **Pick a key**
    - Enjoy 1.92EB (Exabyte) aka 1.92 Million Terabyte of Cloudflare Warp+ Traffic
