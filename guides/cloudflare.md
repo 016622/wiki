@@ -1,68 +1,44 @@
-## Unlimited Proxy-Data
+## Free Zero Trust with Cloudflare WARP
 
-1. **Visit the text file**
+### **PC / Laptop (Windows & macOS)**
 
-   - Go to [this](https://gist.github.com/jbugel-lol/3857f959ed93f1974c87ef8f0a462815)
+1. **Download and Install WARP**
+   - Visit the [1.1.1.1 website](https://1.1.1.1/) and follow the instructions for your platform.
+   - Install WARP and connect at least once.
 
-2. **Pick a key**
-   - Enjoy 1.92EB (Exabyte) aka 1.92 Million Terabyte of Cloudflare Warp+ Traffic
+2. **Access Device ID**
+   - Click the WARP tray icon.
+   - Open the settings (gear icon) and go to **Preferences**.
+   - Navigate to **General > Your Device** and copy the **Device ID**.
 
-## Unlimited Cloudflare-Devices (PC, Mac, Android, iOS)
+3. **Update Gateway DoH Subdomain**
+   - Go to **Preferences > Connection**.
+   - Paste the copied **Device ID** into the **Gateway DoH Subdomain** textbox.
+   - Click **Save** and then **OK**.
 
-1. **Download the latest release of WGCF**
+4. **Connect to Zero Trust**
+   - Close the preferences menu and reconnect to WARP.
+   - Your device should now be connected to Zero Trust.
 
-   - Visit this [link](https://github.com/ViRb3/wgcf/releases/latest) to download the latest release of WGCF.
-   - Once on the GitHub page, you may need to click on "Show all assets" to reveal the available option you'r device to download.
-   - Save the downloaded file to a easy accessable folder (ideally a new folder).
+`* macOS to be tested soon`
+---
 
-2. **Rename the downloaded file**
+### **Mobile (Android & iOS)**
 
-   - Rename the downloaded file to "wgcf".
+1. **Download and Install WARP**
+   - Go to the [1.1.1.1 website](https://1.1.1.1/) and install the app for your mobile platform.
+   - Connect to WARP at least once.
 
-3. **Open the Command Prompt (CMD)**
+2. **Access Client Configuration**
+   - Open the app and navigate to **Settings > Advanced > Diagnostics**.
+   - Copy the **CLIENT CONFIGURATION > ID**.
 
-   - Launch the Command Prompt (CMD) on your computer.
+3. **Update Gateway DoH Subdomain**
+   - Go to **Settings > Advanced > Connection Options > DNS Settings**.
+   - Select **Gateway DoH Subdomain**, paste the copied **ID**, and click **Apply**.
 
-4. **Change the directory to your Downloads folder**
+4. **Connect to Zero Trust**
+   - Return to the app's home page and connect to WARP.
+   - Your mobile device is now connected to Zero Trust.
 
-   - Navigate to the folder by running the following command:
-     ```
-     cd (you'r path to the wgcf file)
-     ```
-
-5. **Register WGCF**
-
-   - Run the command:
-     ```
-     wgcf register
-     ```
-
-6. **Update the account key in "wgcf-account.toml"**
-
-   - Open the "wgcf-account.toml" file with a text editor.
-   - Replace the "license_key" field with the key you selected in the previous guide.
-
-7. **Update WGCF**
-
-   - Run the command:
-     ```
-     wgcf update
-     ```
-
-8. **Generate WGCF configuration again**
-
-   - Execute the command:
-     ```
-     wgcf generate
-     ```
-
-9. **Import the "wgcf-profile.conf" file to your Wireguard client**
-
-   - Import the "wgcf-profile.conf" configuration file to your Wireguard client.
-
-10. **Activate the configuration**
-
-    - Activate the imported configuration in your Wireguard client.
-
-11. **Copy "wgcf-profile.conf" to other devices**
-    - You can now copy the "wgcf-profile.conf" file to any device that supports Wireguard and use WARP+ on those devices.
+Enjoy secure and private internet access with Cloudflare WARP Zero Trust!
