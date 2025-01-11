@@ -1,6 +1,6 @@
 ## Free Zero Trust with Cloudflare WARP
 
-### **PC / Laptop (Windows & macOS)**
+### **PC / Laptop (Windows only)**
 
 1. **Download and Install WARP**
    - Visit the [1.1.1.1 website](https://1.1.1.1/) and follow the instructions for your platform.
@@ -20,7 +20,6 @@
    - Close the preferences menu and reconnect to WARP.
    - Your device should now be connected to Zero Trust.
 
-`* macOS to be tested soon`
 ---
 
 ### **Mobile (Android & iOS)**
